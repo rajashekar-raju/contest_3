@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 10px;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h3 {
+    color: red;
+    font-weight: 900;
+}
+.nav-list {
+    display: flex;
+    gap: 10px;
+}
+.nav-list li{
+    list-style-type: none;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+.search {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.combine {
+    display: flex;
+}
+.combine input {
+    border: none;
+    background-color: antiquewhite;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.combine button{
+    border: none;
+    background-color: hwb(34 84% 2%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+.redbtn button{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.cmbbtn button{
+    padding: 10px 20px;
+    color: red;
+    border-radius: 15px;
+    background-color: rgb(253,236,236);
+    border: none;
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+}
+.second-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 20px;
+}
+.second-left h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.left-btn button{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.middle {
+    margin: auto auto;
+}
+.second-last img{
+    width: 1444px;
+}
+footer img {
+    width: 1444px ;
+}
